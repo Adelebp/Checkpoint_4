@@ -1,34 +1,42 @@
-.bg {
+/* .bg {
 	filter: brightness(0.4);
 	position: relative;
 	width: 100%;
-}
-h3 {
-	position: absolute;
-	top: 20%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 50px;
-	font-family: 'Varta';
+} */
+.container {
+    background-color: #CD5C5C;
 	color: white;
-}
-p {
-	position: absolute;
-	top: 35%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 25px;
-	font-family: 'Varta';
-	color: white;
+
 }
 
-.menu {
-	position: absolute;
+h3 {
+
+	font-size: 50px;
+	font-family: 'Varta';
+    color: white;
+	display: flex;
+	justify-content: center;
+}
+p {
+
+	font-size: 25px;
+	font-family: 'Varta';
+    color: white;
+    padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.Nav {
+	font-family: "Varta";
+	color: white;
+	font-size: 20px;
 	display: flex;
 	justify-content: space-evenly;
-	top: 10%;
-	z-index: 1 !important;
-	font-family: 'Varta';
-	font-size: 20px;
-	color: white !important;
+	padding-top: 20px;
+	
 }

@@ -1,31 +1,47 @@
-import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
+
 import styles from './Accueil.module.css';
 
-import MyNavbar from './Navbar';
-import { Nav, NavLink, Navbar } from 'reactstrap';
+import React, { useState } from 'react';
+import {
+	
+	Navbar,
 
-const fond = require('./fond.jpg');
-export default function Accueil() {
+	NavLink,
+} from 'reactstrap';
+
+const Accueil = (props) => {
+	const [isOpen, setIsOpen] = useState(false);
+
+	const toggle = () => setIsOpen(!isOpen);
+
 	return (
-		<div>
-			
+		<div className={styles.container}>
+			<Navbar fixed className={styles.Nav} color='light' light expand='md'>
+				
+					<NavLink href='/Accueil'>Accueil</NavLink>
+					<NavLink href='/A_propos'>A propos</NavLink>
 
-			<Nav className={styles.menu}>
-				<NavLink href='./Accueil'>Accueil</NavLink>
+					<NavLink href='/Cv'>Cv</NavLink>
 
-				<NavLink href='./A_propos'>A_propos</NavLink>
+					<NavLink href='/Projets'>Projets</NavLink>
 
-				<NavLink href='./Cv'>Cv</NavLink>
+					<NavLink href='/Contact'>Contact</NavLink>
+				
+			</Navbar>
 
-				<NavLink href='./Projets'>Projets</NavLink>
-
-				<NavLink href='./Contact'>Contact</NavLink>
-			</Nav>
-            <img className={styles.bg} src={fond} alt='img' />
+			{/* <img className={styles.bg} src={fond} alt='img' /> */}
 
 			<h3>Adèle Bobin-Parra </h3>
-			<p>TEXTE</p>
+
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quo
+				repellendus architecto aliquam eaque temporibus veniam, tenetur
+				doloremque ullam optio hic. Pariatur ullam maxime eaque necessitatibus
+				facilis accusamus adipisci beatae.
+			</p>
+			
 		</div>
 	);
-}
+};
+
+export default Accueil;
