@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+
+
+
+.navbar {
+	display: flex;
+	align-items: center;
+	background: white;
+	font-size: large;
+	font-weight: bold;
+	font-weight: 300;
+}
+
+.navitem {
+	padding: 16px 16px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #cd5c5c;
+	vertical-align: middle;
+}

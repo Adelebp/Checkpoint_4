@@ -1,0 +1,19 @@
+
+.image {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.div {
+    position: relative;
+
+}
+
+.pres {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
