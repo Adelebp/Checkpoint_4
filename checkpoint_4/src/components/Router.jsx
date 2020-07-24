@@ -13,7 +13,7 @@ export default function MyRouter() {
 		<Router>
 			<MyNavbar />
 			<Switch>
-				<Route path='/Header' component={Header} />
+				<Route path='/Header' component={Home} />
 				<Route path='/A_propos' component={Apropos} />
 				<Route path='/Cv' component={Cv} />
 

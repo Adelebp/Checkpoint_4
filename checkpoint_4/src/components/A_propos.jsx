@@ -5,16 +5,8 @@ import { Row, Col } from 'reactstrap';
 export default function Apropos() {
 	return (
 		<div className={styles.card}>
-			<Row className={styles.image}>
-				<Col lg='6' md='12' className={styles.div}>
-					<img
-						href='https://placeholder.com'
-						src='https://via.placeholder.com/250'
-						alt='my_face'
-					/>
-				</Col>
+			<Row>
 				<Col xs='12' md='12' lg='5' className={styles.pres}>
-                   
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
 						tenetur nulla quia. Necessitatibus, tempora ab animi assumenda vel
@@ -28,6 +20,20 @@ export default function Apropos() {
 						odit magnam odio, incidunt esse molestiae vel, eum quis tenetur
 						cupiditate?
 					</p>
+				</Col>
+			</Row>
+			<Row className={styles.image}>
+				<Col lg='6' md='12' >
+					<img className={styles.div}
+						href='https://placeholder.com'
+						src='https://via.placeholder.com/150'
+						alt='my_face'
+					/>
+					<img className={styles.div2}
+						href='https://placeholder.com'
+						src='https://via.placeholder.com/150'
+						alt='my_face'
+					/>
 				</Col>
 			</Row>
 		</div>

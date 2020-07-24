@@ -1,19 +1,27 @@
-
+.card {
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
 .image {
     display: flex;
+   justify-content: center;
     margin-top: 10px;
-    margin-left: 50px;
+    
 
 }
 
 .div {
-    position: relative;
-
+    margin-right: 20px;
 }
 
+.div2 {
+    margin-left: 20px;
+}
 .pres {
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     margin-left: 100px;
     margin-right: 100px;
 }
