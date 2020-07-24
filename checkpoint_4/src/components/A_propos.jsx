@@ -5,6 +5,7 @@ import { Row, Col } from 'reactstrap';
 export default function Apropos() {
 	return (
 		<div className={styles.card}>
+            <h5>A propos</h5>
 			<Row>
 				<Col xs='12' md='12' lg='5' className={styles.pres}>
 					<p>

@@ -1,11 +1,10 @@
 import React from 'react';
+import styles from './Cv.module.css';
 
 export default function Cv() {
     	return (
-    <div>
+            <div className={styles.container}>
 
-        CV
-
-    </div>
+                </div>
     	);
     };

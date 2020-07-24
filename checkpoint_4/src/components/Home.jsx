@@ -9,10 +9,11 @@ function Home() {
 	return (
 		<div>
 			<Header />
+			
+			
 			<Apropos />
 			<Cv />
 			<Projets />
-		
 		</div>
 		
 	);
