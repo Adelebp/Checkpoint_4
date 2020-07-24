@@ -1,0 +1,32 @@
+.card {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+h5 {
+	font-size: 40px;
+
+	color: #cd5c5c;
+margin-bottom: 30px !important;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.image {
+	display: flex;
+	justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.div {
+	margin-right: 20px;
+}
+
+.div2 {
+	margin-left: 20px;
+}
+.pres {
+	font-size: 20px;
+	text-align: center;
+	/* margin-top: 10px; */
+}
