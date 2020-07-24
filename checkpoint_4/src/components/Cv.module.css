@@ -1,8 +1,13 @@
-.container {
-    background-color: #e5abab;
+
+
+.h5 {
+    background-color: #cd5c5c;
+    padding-bottom: 20px;
+    padding-top: 20px;
+	font-size: 40px;
 	color: white;
-	padding-top: 50px;
-	padding-bottom: 50px;
-
-
+	margin-bottom: 30px !important;
+	
+	display: flex;
+	justify-content: center;
 }
